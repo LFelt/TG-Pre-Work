@@ -74,3 +74,23 @@ h1 {
 .publish-time {
  color: gray;
 }
+
+/*1.11 */
+ <h1 class="title cursive capitalize">Top Vacation Spots</h1>
+ .cursive {
+  font-family: cursive;
+}
+
+.capitalize {
+text-transform: capitalize;
+}
+
+/* 1.12 */
+h2.destination {
+ font-family: cursive;
+}
+
+/* 1.13 */
+.description h5 {
+  color: teal;
+}
