@@ -63,3 +63,14 @@ h1 {
  <h1 class="title uppercase">Top Vacation Spots</h1>
 
  /* 1.9 */
+ #article-title {
+  font-family: cursive;
+  text-transform: capitalize;
+}
+<h1 class="title uppercase" id="article-title">Top Vacation Spots</h1>
+
+/* 1.10 */
+<h6 class="publish-time">Published: 2 Days Ago</h6>
+.publish-time {
+ color: gray;
+}
