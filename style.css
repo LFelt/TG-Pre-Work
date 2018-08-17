@@ -208,3 +208,11 @@ h1 {
   color: black;
   opacity: 0.75;
 }
+
+/*2.9 */
+.image {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/soccer.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
