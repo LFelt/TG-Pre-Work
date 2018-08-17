@@ -33,3 +33,14 @@
   <h6 class="publish-time">Published: 2 Days Ago</h6>
 
   <p>The world is full of fascinating places. Planning the perfect vacation involves packing up, leaving home, and experiencing something new.</p>
+
+/* 1.4 */
+p {
+  font-family: Arial;
+}
+
+/* 1.5 */
+<head>
+  <title>Vacation World</title>
+  <link href="style.css" type="text/css" rel="stylesheet">
+</head>
