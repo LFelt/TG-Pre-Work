@@ -94,3 +94,19 @@ h2.destination {
 .description h5 {
   color: teal;
 }
+
+/*1.14 */
+h5 {
+ color: rebeccapurple;
+}
+
+/*1.15 */
+h5 {
+ color: rebeccapurple !important;
+}
+
+/* 1.16 */
+h5,
+p {
+  font-family: Georgia;
+}
