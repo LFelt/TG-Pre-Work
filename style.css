@@ -441,3 +441,17 @@ header {
   width: 100%;
   z-index: 10;
 }
+
+/* 5.7 */
+  <h1><strong>Welcome</strong> to our survey!</h1>
+
+  /* 5.8 */
+  <footer>
+   <h3>Thanks for taking our survey!</h3>
+ </footer>
+
+ footer {
+  background-color: #DBE9EE;
+  text-align: center;
+  height: 100px;
+}
