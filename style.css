@@ -340,3 +340,16 @@ h2 {
   text-align: center;
   margin: 30px 20px;
 }
+
+/* 3.10 */
+.pull-quote {
+  width: 350px;
+  margin: 0 auto;
+}
+
+#main {
+  padding: 40px;
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+}
