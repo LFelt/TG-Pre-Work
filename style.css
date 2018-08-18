@@ -392,3 +392,17 @@ p {
 * {
   box-sizing: border-box;
 }
+
+/* 5.2 */
+.question {
+  text-align: center;
+  position: static;
+  top: 40px;
+}
+
+/* 5. 3 */
+.question {
+  text-align: center;
+  position: relative;
+  top: 40px;
+}
