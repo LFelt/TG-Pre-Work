@@ -493,3 +493,18 @@ li {
   width: 200px;
   float: left;
 }
+
+/* 5.11 */
+.question {
+  text-align: center;
+  position: relative;
+  top: 40px;
+}
+
+.answer {
+  border: 1px solid #466995;
+  margin: 20px;
+  display: inline-block;
+  height: 150px;
+  width: 200px;
+}
