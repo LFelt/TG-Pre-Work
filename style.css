@@ -681,3 +681,34 @@ h1 {
   text-transform: uppercase;
   text-align: left;
 }
+
+/* 7. 11 */
+
+.banner p {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding: 10px;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 1.4;
+  font-family: "Glegoo";
+  font-size: 20px;
+}
+
+/* 7.13 */
+
+.garamond .sample .text {
+  font-family: Garamond, serif;
+}
+
+/* 7. 15 */
+<head>
+  <title>Typography Blog</title>
+  <link rel="stylesheet" type="text/css" href="styles/reset.css">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Space+Mono:400,700" >
+</head>
+
+.space .sample .text {
+  font-family: "Space Mono", monospace;
+}
