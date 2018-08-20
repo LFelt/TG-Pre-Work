@@ -863,4 +863,26 @@ h1 {
 
 .c {
   grid-area: 6 / 8 / span 3 / span 1;
-} 
+}
+
+/* 8.15 */
+.grid {
+  border: 2px blue solid;
+  height: 500px;
+  width: 500px;
+	display : grid;
+  grid-template-columns: 25% 25% 2fr 1fr;
+  grid-template-rows: 200px 200px;
+  grid-gap: 10px 15px;
+}
+
+.a {
+  grid-column: 1 /span 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.a {
+
+  grid-area: 1 / 1/ span 2 / span 2;
+}
