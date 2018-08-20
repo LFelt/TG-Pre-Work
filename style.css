@@ -824,4 +824,22 @@ h1 {
 /* 8.12 */
 .a {
   grid-row: 5 / 7;
+}
+
+/* 8.13 */
+<body>
+  <div class="grid">
+    <div class="box a">A</div>
+    <div class="box b">B</div>
+  </div>
+</body>
+
+.a {
+  grid-row: 5 / 7;
+  grid-column: 1 / span 2;
+}
+
+.b {
+  grid-column: 2 / span 6;
+  grid-row: 2 / span 3;
 } 
