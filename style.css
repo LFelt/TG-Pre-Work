@@ -647,3 +647,10 @@ p {
   width: 100%;
   font-weight: 900;
 }
+
+/* 7.5 */
+.font-card .creator {
+  font-size: 20px;
+  line-height: 1.25;
+  font-style: italic;
+}
