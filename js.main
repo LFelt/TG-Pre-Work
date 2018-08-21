@@ -153,3 +153,34 @@ if (moonPhase ==="full") {
   else {
     console.log("I swear I am not a werewolf");
   }
+
+//3.7
+let moonPhase = ("full")
+
+if (moonPhase ==="full") {
+    console.log("Howl!");
+    }
+else if (moonPhase ==="mostly full") {
+  console.log("Arms and legs are getting hairier");
+}
+else if (moonPhase ==="mostly new") {
+  console.log("back on two feet");
+}
+  else {
+    console.log("Invalid moon phase");
+  }
+
+  let moonPhase = ("solar eclipse")
+
+if (moonPhase ==="full") {
+    console.log("Howl!");
+    }
+else if (moonPhase ==="mostly full") {
+  console.log("Arms and legs are getting hairier");
+}
+else if (moonPhase ==="mostly new") {
+  console.log("back on two feet");
+}
+  else {
+    console.log("Invalid moon phase");
+  }
