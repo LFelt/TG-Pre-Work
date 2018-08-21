@@ -3,7 +3,13 @@ console.log('Vegetables');
 console.log('The Little Prince');
 
 //1.3
-console.log('JavaScript')
-console.log(33.7)
-console.log(true)
-console.log(null)
+console.log('JavaScript');
+console.log(33.7);
+console.log(true);
+console.log(null);
+
+//1.4
+console.log(3.5+33);
+console.log(2018-1969);
+console.log(65/ 240);
+console.log(0.2708 * 100);
