@@ -63,3 +63,7 @@ console.log(entree);
 console.log(price);
 
 entree = 'Tacos';
+
+//2.3
+let changeMe = false;
+console.log(changeMe);
