@@ -134,3 +134,22 @@ if (!favoritePhrase) {
 } else {
   console.log('This string is definitely empty.');
 }
+
+//3.5
+let hungerLevel = (10)
+if (hungerLevel >7) {
+  console.log("time to eat!");
+}
+  else {
+    console.log('We can eat later!');
+  }
+
+  //3.6
+  let moonPhase = ("full")
+
+if (moonPhase ==="full") {
+    console.log("Howl!");
+    }
+  else {
+    console.log("I swear I am not a werewolf");
+  }
