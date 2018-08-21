@@ -1009,3 +1009,12 @@ main {
   height: 1600px;
   align-content: center;
 }
+
+/* 9.8 */
+.a {
+  align-self: end;
+}
+
+.c {
+  justify-self: start;
+}
