@@ -55,3 +55,11 @@ let inNorthernHemisphere = true;
 console.log(location);
 console.log(latitude);
 console.log(inNorthernHemisphere);
+
+//2.2
+const entree = 'Enchiladas';
+const price = 12;
+console.log(entree);
+console.log(price);
+
+entree = 'Tacos';
