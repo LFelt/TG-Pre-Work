@@ -253,3 +253,59 @@ const takeOrder = (topping, crustType) => {
 takeOrder('mushroom', 'NY style');
 takeOrder('spinach', 'gluten-free');
 takeOrder('black olives', 'stuffed crust');
+
+//4.5
+let orderCount = 0;
+
+const takeOrder = (topping, crustType) => {
+  orderCount +=1;
+  console.log('Order: ' + crustType + ' pizza topped with ' + topping);
+};
+
+takeOrder('mushroom', 'NY style');
+takeOrder('spinach', 'gluten-free');
+takeOrder('black olives', 'stuffed crust');
+
+const getSubtotal = (itemCount) => {
+  return itemCount * 7.5;
+};
+
+console.log(getSubtotal(orderCount));
+
+//4.6
+let orderCount = 0;
+
+const takeOrder = (topping, crustType) => {
+  orderCount++;
+  console.log('Order: ' + crustType + ' pizza topped with ' + topping);
+};
+
+takeOrder('mushroom', 'NY style');
+takeOrder('spinach', 'gluten-free');
+takeOrder('black olives', 'stuffed crust');
+
+const getSubTotal = (itemCount) => {
+  return itemCount * 7.5;
+};
+
+const getTax = (itemCount) => {
+  return getSubTotal(itemCount) * 0.06
+}
+
+const getTotal = (itemCount) => {
+  return getTax(itemCount) + getSubTotal(itemCount)
+}
+
+console.log(getSubTotal(orderCount));
+
+console.log(getTotal(orderCount));
+
+//4.7
+function isGreaterThan (numberOne, numberTwo) {
+  if (numberOne > numberTwo) {
+    return true;
+  } else {
+    return false;
+  }
+}
+isGreaterThan(15, 2);
