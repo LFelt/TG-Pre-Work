@@ -309,3 +309,14 @@ function isGreaterThan (numberOne, numberTwo) {
   }
 }
 isGreaterThan(15, 2);
+
+//4.8
+const isGreaterThan = (numberOne, numberTwo) => {
+   if(numberOne > numberTwo){
+    return true;
+  } else {
+    return false;
+  }
+}
+
+isGreaterThan(4,8);
