@@ -348,3 +348,12 @@ const myNightSky = () => {
 
 console.log(myNightSky());
 console.log(stars);
+
+//5.4
+const visibleLightWaves = () => {
+  let lightWaves = 'Moonlight';
+  console.log(lightWaves);
+};
+
+visibleLightWaves();
+console.log(lightWaves);
