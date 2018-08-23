@@ -422,3 +422,29 @@ console.log(newYearsResolutions)
 newYearsResolutions.pop(4)
 
 console.log(newYearsResolutions)
+
+//6.7
+let groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
+
+groceryList.shift();
+
+groceryList.unshift('popcorn');
+console.log(groceryList);
+
+console.log(groceryList.slice(1,4));
+
+//6.8
+let condiments = ['Ketchup', 'Mustard', 'Soy Sauce', 'Sriracha'];
+
+const utensils = ['Fork', 'Knife', 'Chopsticks', 'Spork'];
+
+condiments.push('mayo');
+console.log(condiments);
+
+let condiments = ['Ketchup', 'Mustard', 'Soy Sauce', 'Sriracha'];
+condiments = ['Ketchup, Mustard, Soy Sauce, Sriracha, Mayo'];
+const utensils = ['Fork', 'Knife', 'Chopsticks', 'Spork'];
+utensils.pop(3);
+utensils = ['grapefruit spoon'];
+console.log(utensils);
+console.log(condiments);
