@@ -461,3 +461,10 @@ let vacationSpots = ['Iceland', 'Route 66', 'Norway'];
 for (let vacationSpotIndex = 0; vacationSpotIndex < vacationSpots.length; vacationSpotIndex++) {
   console.log('I would love to visit ' + vacationSpots[vacationSpotIndex]);
 }
+
+//7.4
+let vacationSpots = ['Iceland', 'Route 66', 'Norway'];
+
+for (let vacationSpotIndex = vacationSpots.length-1; vacationSpotIndex >= 0; vacationSpotIndex--) {
+  console.log('I would love to visit ' + vacationSpots[vacationSpotIndex]);
+}
