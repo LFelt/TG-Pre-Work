@@ -468,3 +468,28 @@ let vacationSpots = ['Iceland', 'Route 66', 'Norway'];
 for (let vacationSpotIndex = vacationSpots.length-1; vacationSpotIndex >= 0; vacationSpotIndex--) {
   console.log('I would love to visit ' + vacationSpots[vacationSpotIndex]);
 }
+
+//7.5
+let myPlaces = ['Iceland', 'New Orleans', 'Sweden'];
+
+let friendPlaces = ['Iceland', 'Atlanta', 'Saudi Arabia'];
+
+for (let myPlacesIndex = 0; myPlacesIndex < myPlaces.length; myPlacesIndex++) {
+  for (let friendPlacesIndex = 0; friendPlacesIndex < friendPlaces.length; friendPlacesIndex++) {
+		if (myPlaces[myPlacesIndex] === friendPlaces[friendPlacesIndex]) {
+      console.log(friendPlaces[friendPlacesIndex]);
+    }
+  }
+}
+
+//7.6
+let cards = ['Diamond', 'Spade', 'Heart', 'Club'];
+
+let currentCard = 'Heart';
+
+while (currentCard !== 'Spade') {
+  console.log(currentCard);
+  currentCard = cards[Math.floor(Math.random() *4)];
+}
+
+console.log('You found a spade!');
