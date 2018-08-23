@@ -394,3 +394,31 @@ let listItem = (newYearsResolutions[0]);
 console.log(listItem);
 console.log(newYearsResolutions[2]);
 console.log(newYearsResolutions[3]);
+
+//6.4
+
+newYearsResolutions[1] = 'Learn a new language';
+
+//6.5
+
+console.log(newYearsResolutions.length);
+
+//6.6
+let newYearsResolutions = ['have a baby',"be the best coder",'be compleltely off social media'];
+console.log(newYearsResolutions)
+
+let listItem = (newYearsResolutions[0]);
+console.log(listItem);
+console.log(newYearsResolutions[2]);
+console.log(newYearsResolutions[3]);
+
+newYearsResolutions[1] = 'Learn a new language';
+
+console.log(newYearsResolutions.length);
+
+newYearsResolutions.push('got to iceland', 'be zero-waste');
+console.log(newYearsResolutions)
+
+newYearsResolutions.pop(4)
+
+console.log(newYearsResolutions)
