@@ -448,3 +448,16 @@ utensils.pop(3);
 utensils = ['grapefruit spoon'];
 console.log(utensils);
 console.log(condiments);
+
+//7.2
+let vacationSpots = ['Iceland', 'Route 66', 'Norway'];
+console.log(vacationSpots[0]);
+console.log(vacationSpots[1]);
+console.log(vacationSpots[2]);
+
+//7.3
+let vacationSpots = ['Iceland', 'Route 66', 'Norway'];
+
+for (let vacationSpotIndex = 0; vacationSpotIndex < vacationSpots.length; vacationSpotIndex++) {
+  console.log('I would love to visit ' + vacationSpots[vacationSpotIndex]);
+}
