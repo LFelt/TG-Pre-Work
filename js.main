@@ -571,3 +571,22 @@ let smallerNums = nums.map(num => num - 5);
 
 // Choose a method that will return a boolean value
 nums.every(num => num < 0);
+
+//9.2
+let person = {
+  name: 'LaRissa',
+  age: 33
+};
+
+//9.3
+let person = {
+  name: 'LaRissa',
+  age: 33
+};
+console.log(person.name);
+console.log(person.age);
+
+9.4
+};
+console.log(person['name']);
+console.log(person['age']);
