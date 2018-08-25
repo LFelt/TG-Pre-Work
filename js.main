@@ -742,3 +742,11 @@ person.age = 'Thirty-nine';
 }
 person.age = 39;
 };
+
+
+//9.14
+
+get age() {
+  console.log(`${this._name} is ${this._age} years old.`);
+  return this._age;
+}
