@@ -948,4 +948,22 @@ $ $ npm install babel-preset-env -D
 bash: $: command not found
 $ ls
 package.json  src
-$ 
+$
+
+//11.8
+
+$ touch .babelrc
+$ {
+>   "presets": ["env"]
+> }
+
+//11.9
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+     "build": "babel src -d lib"
+  },
+
+//11.10
+ npm run build
+
+ 
