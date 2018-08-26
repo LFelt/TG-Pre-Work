@@ -966,4 +966,29 @@ $ {
 //11.10
  npm run build
 
- 
+
+
+ //12.2
+ let Airplane = {};
+Airplane.myAirplane = "StarJet";
+module.exports = Airplane;
+
+//12.3
+const Airplane = require('./1-airplane.js');
+function displayAirplane() {
+  console.log(Airplane.myAirplane);
+}
+displayAirplane();
+
+//12.4
+let Airplane = {};
+
+module.exports = {
+  myAirplane: "CloudJet",
+  displayAirplane: function() {
+  return this.myAirplane;
+}
+};
+
+const Airplane = require('./2-airplane.js');
+console.log(Airplane.displayAirplane());
